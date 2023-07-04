@@ -62,54 +62,11 @@ conda env create -f rrenvi.yml
 # now, if all has gone well
 conda activate rrenvi
 
-
-
-
-4. docker
-
-
-
-
-
-
-
-
-
-    Conda environments, troubleshooting conda install etc.
-    How to estimate memory demands of a job
-    Basics: commands for checking number of threads available etc.
-    Use of Screen command to prevent jobs aborting? E.g. moving large amount of files…
-    Grep? Directory navigation hacks?
-    Most efficient/safest way to copy/move files?
-    Version control (if I move/copy a bunch of files elsewhere, “should” I delete the old version?)
-
- 
-
-
-
-https://www-users.york.ac.uk/~pjh503/linux/commands.html
-
-
-how heavily is the server being used
-
-what do I have running
-
-
-
-how much space do I have?
-
-df . -h
-du  ~/. -h
-du --max-depth=1 ~/. -h
-
-
-htop
-
-
-
-/recer1
-
-/recer1/rgds
-
-
-
+cd ..
+git clone -b dev https://github.com/recer-rbgsydney/RRtools.git
+cd RRtools
+cd R
+R
+# in R
+# document()
+# install()
