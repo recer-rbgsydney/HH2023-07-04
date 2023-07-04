@@ -1,0 +1,101 @@
+
+
+### 1. Log on to the server...
+
+### in MobaXterm or putty or similar 
+
+### for rcn02
+ssh jgb@10.6.0.13
+
+### once we're logged on, unix commands
+# https://www-users.york.ac.uk/~pjh503/linux/commands.html
+
+# try a few
+ls
+cd /data
+cd ~ 
+
+# what drives are available
+ls /home/jgb
+ls /data
+ls /stage
+ls /recer1
+
+cd /recer1
+ls rgds
+
+# a doc suggesting some conventions for directory organization
+# https://environmentnswgov.sharepoint.com/:w:/r/sites/MST_HAP_ResearchCentreforEcosystemResilience/Shared%20Documents/Bioinformatics/file_organisation.docx?d=wf0e401af1c924c988f142cfb45d20ac2&csf=1&web=1&e=mNQxbh
+
+df 
+df . -h
+du  ~/. -h
+du --max-depth=1 ~/. -h
+
+htop
+
+screen
+# run stuff that takes a long time
+# <control A> <d>
+screen -R
+
+
+### 2. git
+
+
+
+
+
+3. conda
+
+
+
+
+4. docker
+
+
+
+
+
+
+
+
+
+    Conda environments, troubleshooting conda install etc.
+    How to estimate memory demands of a job
+    Basics: commands for checking number of threads available etc.
+    Use of Screen command to prevent jobs aborting? E.g. moving large amount of files…
+    Grep? Directory navigation hacks?
+    Most efficient/safest way to copy/move files?
+    Version control (if I move/copy a bunch of files elsewhere, “should” I delete the old version?)
+
+ 
+
+
+
+https://www-users.york.ac.uk/~pjh503/linux/commands.html
+
+
+how heavily is the server being used
+
+what do I have running
+
+
+
+how much space do I have?
+
+df . -h
+du  ~/. -h
+du --max-depth=1 ~/. -h
+
+
+htop
+
+
+
+/recer1
+
+/recer1/rgds
+
+
+
