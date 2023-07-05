@@ -11,6 +11,7 @@ ssh jgb@10.6.0.13
 # https://www-users.york.ac.uk/~pjh503/linux/commands.html
 
 # try a few
+pwd
 ls
 cd /data
 cd ~ 
