@@ -14,6 +14,12 @@ ssh jgb@10.6.0.13
 ls
 cd /data
 cd ~ 
+mkdir newdir
+cd newdir
+pwd
+cd ..
+pwd
+
 
 # what drives are available
 ls /home/jgb
